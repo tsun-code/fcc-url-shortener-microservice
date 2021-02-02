@@ -9,4 +9,4 @@ Working on this project will involve you writing your code on Glitch on our star
 
 ### The following environment variable has to be defined in order to run the microservice
 
-MONGO_URI='mongodb+srv://<spoiler>:<spoiler>@cluster0-5k2k7.mongodb.net/freecodecamp?retryWrites=true&w=majority'
+MONGO_URI='mongodb+srv://[username]:[password]@cluster0-5k2k7.mongodb.net/freecodecamp?retryWrites=true&w=majority'
