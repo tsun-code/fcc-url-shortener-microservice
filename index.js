@@ -58,7 +58,7 @@ app.post("/api/shorturl/new", (req, res) => {
   // console.log("Stripped URL: " + stripUrl);
 
   dns.lookup(stripUrl, (err, address, family) => {
-    if (err) return res.json({ error: "invalid Hostname" });
+    if (err) return res.json({ error: "invalid url" });
 
     UrlShortener.findOne({ original_url: fullUrl }, (err, data) => {
       if (err) return res.status(500).send("Internal Error");
